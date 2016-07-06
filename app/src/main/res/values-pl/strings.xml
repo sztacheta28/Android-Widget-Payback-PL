@@ -13,9 +13,20 @@
         <item>Wszystkie</item>
         <item>Dostępne</item>
     </string-array>
+
+    <string-array name="type_list_values_preference">
+        <item>total</item>
+        <item>available</item>
+    </string-array>
     
     <string-array name="get_error_list_preference">
         <item>Błąd</item>
-        <item>Ostatnio znana wartość</item>
+        <item>Ostatnia znana wartość</item>
     </string-array>
+
+    <string-array name="get_error_list_values_preference">
+        <item>error</item>
+        <item>last</item>
+    </string-array>
+
 </resources>
