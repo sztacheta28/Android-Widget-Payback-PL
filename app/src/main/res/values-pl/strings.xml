@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Payback Widget PL</string>
+    <string name="general">Ustawienia</string>
+    <string name="card_number">Numer karty</string>
+    <string name="type">Rodzaj punktów</string>
+    <string name="get_error">Kiedy problem z połączeniem</string>
+
+    <string name="error">błąd</string>
+    <string name="update">aktualizuję</string>
+    
+    <string-array name="type_list_preference">
+        <item>Wszystkie</item>
+        <item>Dostępne</item>
+    </string-array>
+    
+    <string-array name="get_error_list_preference">
+        <item>Błąd</item>
+        <item>Ostatnio znana wartość</item>
+    </string-array>
+</resources>

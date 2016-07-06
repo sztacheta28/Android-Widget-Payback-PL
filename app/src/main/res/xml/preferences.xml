@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/general">
+
+        <EditTextPreference
+                    android:key="card_number_preference"
+                    android:title="@string/card_number"
+                    android:inputType="number"
+                    android:digits="0123456789"/>
+
+        <ListPreference
+                    android:key="type_preference"
+                    android:title="@string/type"
+                    android:entries="@array/type_list_preference"
+                    android:entryValues="@array/type_list_values_preference"
+                    android:defaultValue="available"  />
+
+        <ListPreference
+                    android:key="get_error_preference"
+                    android:title="@string/get_error"
+                    android:entries="@array/get_error_list_preference"
+                    android:entryValues="@array/get_error_list_values_preference"
+                    android:defaultValue="last"  />
+             
+    </PreferenceCategory>
+    
+</PreferenceScreen>

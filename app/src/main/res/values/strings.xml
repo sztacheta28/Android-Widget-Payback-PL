@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Payback Widget</string>
+    <string name="general">Settings</string>
+    <string name="card_number">Card number</string>
+    <string name="type">Type of points</string>
+    <string name="get_error">When the connection problem</string>
+
+    <string name="error">error</string>
+    <string name="update">update</string>
+    
+    <string-array name="type_list_preference">
+        <item>Total</item>
+        <item>Available</item>
+    </string-array>
+    
+    <string-array name="type_list_values_preference">
+        <item>total</item>
+        <item>available</item>
+    </string-array>
+    
+    <string-array name="get_error_list_preference">
+        <item>Error</item>
+        <item>Last known</item>
+    </string-array>
+    
+    <string-array name="get_error_list_values_preference">
+        <item>error</item>
+        <item>last</item>
+    </string-array>
+</resources>
